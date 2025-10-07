@@ -1,0 +1,10 @@
+<launch>
+    <node pkg="cse4568_pa2" type="gap_follow.py" name="gap_follow_node" output="screen">
+        <param name="max_speed" value="5.0" />
+        <param name="min_speed" value="2.0" />
+        <param name="safety_distance" value="1.0" />
+        <param name="safety_bubble_radius" value="0.5" />
+        <param name="obstacle_repulsive_gain" value="1.0" />
+        <param name="goal_attractive_gain" value="1.0" />
+    </node>
+</launch>
